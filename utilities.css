@@ -1,0 +1,157 @@
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.container .col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container .col-1,
+.container .col-2 {
+  height: 100%;
+}
+
+.container .col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-content {
+  height: 35rem;
+  width: 35rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container-content h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.container-content p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: grey;
+  line-height: 2rem;
+  padding-bottom: 20px;
+}
+
+.container-content a {
+  color: black;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.col-3 {
+  background: url(./images/desktop/image-graphic-design.jpg) no-repeat center
+    center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.col-4 {
+  background: url(./images/desktop/image-photography.jpg) no-repeat center
+    center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.container-content-2 {
+  height: 16rem;
+  width: 25rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-content-2 h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.container-content-2 p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: grey;
+  line-height: 2rem;
+  padding-bottom: 20px;
+}
+
+.container-content-2 a {
+  color: black;
+}
+
+.section-testimonial .row {
+  display: flex;
+}
+
+.section-testimonial .col {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  padding: 5rem;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimonial-content h2 {
+  font-weight: 900;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.testimonial-content h3 {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.testimonial-content p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: grey;
+  line-height: 1rem;
+  padding: 2rem;
+  font-size: 10px;
+}
+
+.testimonial-content a {
+  color: black;
+}
+
+.testimonial-content img {
+  border-radius: 100%;
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+}
